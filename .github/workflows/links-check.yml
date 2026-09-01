@@ -54,7 +54,7 @@ jobs:
 
       - name: External Link Checker
         if: steps.changed-md.outputs.files != ''
-        uses: JustinBeckwith/linkinator-action@36a0bfbfecd5e237e8f8531537a693616c505faf # 2.4.5
+        uses: JustinBeckwith/linkinator-action@12f7a61a56e5e75d659f0dfd6357e2d852ede281 # 2.5.0
         with:
           paths: ${{ steps.changed-md.outputs.files }}
           retry: true
